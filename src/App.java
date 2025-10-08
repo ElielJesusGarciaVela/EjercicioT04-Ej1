@@ -13,6 +13,9 @@ public class App {
             case "miercoles":
                 System.out.print("La primera asignatura de este dia es Sistenmas Inforáticos.");
                 break;
+            case "miércoles":
+                System.out.print("La primera asignatura de este dia es Sistenmas Inforáticos.");
+                break;
             case "jueves":
                 System.out.print("La primera asignatura de este dia es IPEI.");
                 break;
@@ -20,7 +23,7 @@ public class App {
                 System.out.print("La primera asignatura de este dia es Bases de Datos.");
                 break;
             default:
-                System.out.print("No has insertado un dia de la semana valido o has insertado tildes.");
+                System.out.print("No has insertado un dia de la semana valido.");
         }
     }
 }
